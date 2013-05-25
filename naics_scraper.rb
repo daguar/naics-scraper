@@ -2,6 +2,7 @@ require 'pry'
 require 'httparty'
 require 'nokogiri'
 require 'mongo'
+require 'json'
 
 module NaicsScraper
 
@@ -61,6 +62,15 @@ module NaicsScraper
     # 1. Check out all the 5-digit codes
     #@@coll.find.each { |row| p "#{row['code']} - #{row['content']}" if row["code"].to_s.length == 5 }
     binding.pry
+  end
+
+  def self.dump_content_to_file(year, filename)
+    json_data = Array.new
+    initialize_mongo_for_year(year)
+    @@coll.find.each { |object| json_data << { code: object['code'], description: object['content'] } }
+    File.open("./#{filename}", "w") do |f|
+      f.write(json_data.to_json)
+    end
   end
 
 end

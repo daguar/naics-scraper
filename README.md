@@ -23,17 +23,21 @@ It seems to work for the core content for 2012 codes -- it has not yet been test
 To run the scraper, do the following:
 
 First, in a separate terminal window, start Mongo:
+
 `mongodb`
 
 Next, from the project directory, install gems:
+
 `bundle install`
 
 Then, run the script:
+
 `ruby naics_scraper.rb`
 
 You're now at an interactive terminal, from which you can run any of the scraping commands (read the code to get a sense for what you can do).
 
 The main way to get all the data for a year is to do:
+
 `NaicsScraper.put_year_content_in_mongo(2012)`
 
 ## Contributing

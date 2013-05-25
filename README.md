@@ -10,6 +10,8 @@ Current status is: **experimental**
 
 It seems to work for the core content for 2012 codes -- it has not yet been tested on other years.
 
+A good way to help is to check out the JSON of 2012 code scraping results, and open an Issue for any problems you discover.
+
 ## Installing
 
 ### Requirements

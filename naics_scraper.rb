@@ -62,11 +62,11 @@ module NaicsScraper
     if code.to_s.length == 6
       content = pieces[0].children[10].children[2].text
     elsif code.to_s.length == 5
-      content = pieces[0].children[10].children[4].text
+      content = pieces[0].children[10].children[4..6].text
     else
-      binding.pry
+      content = ""
     end
-    content.strip
+    content.empty? ? "" : content.strip
   end
 
   def self.play_with_year_in_mongo(year)

@@ -27,6 +27,10 @@ describe NaicsScraper, "::get_content_for_code" do
     @code_content = NaicsScraper.get_content_for_code(5412, 2012)
     @code_content.should eq("")
   end
+  it "should work for 541120 in 2012" do
+    @code_content = NaicsScraper.get_content_for_code(541120,2012)
+    @code_content.should eq("This industry comprises establishments (except offices of lawyers and attorneys) primarily engaged in drafting, approving, and executing legal documents, such as real estate transactions, wills, and contracts; and in receiving, indexing, and storing such documents.")
+  end
 end
 
 describe NaicsScraper, "::get_response_for_code" do

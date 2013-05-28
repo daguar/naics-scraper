@@ -2,11 +2,17 @@ require 'pry'
 require 'httparty'
 require 'nokogiri'
 require 'mongo'
-require 'json'
+require 'vcr'
+require 'webmock'
 
 module NaicsScraper
 
   include Mongo
+
+  VCR.configure do |c|
+    c.cassette_library_dir = 'vcr_cassettes'
+    c.hook_into :webmock
+  end
 
   def self.put_year_content_in_mongo(year)
     initialize_mongo_for_year(year)
@@ -38,8 +44,20 @@ module NaicsScraper
 
   def self.get_codes_for_year(year)
     # May want to add error handling for year constraints (eg, only allow args of 2012/2007/2002)
-    response = HTTParty.get("http://naics-api.herokuapp.com/v0/q?year=#{year}")
+    VCR.use_cassette("data_for_year_#{year}") do
+      response = HTTParty.get("http://naics-api.herokuapp.com/v0/q?year=#{year}")
+      #response = Net::HTTP.get_response(URI("http://naics-api.herokuapp.com/v0/q?year=#{year}"))
+    end
   end
+
+=begin
+  def self.get_or_load_response(request_uri)
+    VCR.use_cassette("data_for_year_#{year}") do
+      response = HTTParty.get("http://naics-api.herokuapp.com/v0/q?year=#{year}")
+      #response = Net::HTTP.get_response(URI("http://naics-api.herokuapp.com/v0/q?year=#{year}"))
+    end
+  end
+=end
 
   def self.get_content_for_code(code)
     response = HTTParty.get("http://www.census.gov/cgi-bin/sssd/naics/naicsrch?code=#{code}&search=2012%20NAICS%20Search")
@@ -57,7 +75,7 @@ module NaicsScraper
 
   def self.play_with_year_in_mongo(year)
     initialize_mongo_for_year(year)
-    # GO TO TOWN
+   # GO TO TOWN
     # Example play:
     # 1. Check out all the 5-digit codes
     #@@coll.find.each { |row| p "#{row['code']} - #{row['content']}" if row["code"].to_s.length == 5 }
@@ -79,4 +97,3 @@ end
 #code_description = NaicsScraper.get_content_for_code(111120)
 #all_2012_codes = NaicsScraper.put_year_content_in_mongo(2012)
 
-binding.pry

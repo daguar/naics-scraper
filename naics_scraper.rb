@@ -60,20 +60,24 @@ module NaicsScraper
   end
 =end
 
-  def self.get_content_for_code(code, year)
+  def self.get_response_for_code(code, year)
     VCR.use_cassette("response_for_#{year}_#{code}") do
       response = HTTParty.get("http://www.census.gov/cgi-bin/sssd/naics/naicsrch?code=#{code}&search=#{year}%20NAICS%20Search")
-      parsed_doc = Nokogiri::HTML(response.body)
-      pieces = parsed_doc.css("#middle-column .inside")
-      if code.to_s.length == 6
-        content = pieces[0].children[10].children[2].text
-      elsif code.to_s.length == 5
-        content = pieces[0].children[10].children[4].text
-      else
-        binding.pry
-      end
-      content.strip
     end
+  end
+
+  def self.get_content_for_code(code, year)
+    response = get_response_for_code(code, year)
+    parsed_doc = Nokogiri::HTML(response.body)
+    pieces = parsed_doc.css("#middle-column .inside")
+    if code.to_s.length == 6
+      content = pieces[0].children[10].children[2].text
+    elsif code.to_s.length == 5
+      content = pieces[0].children[10].children[4].text
+    else
+      binding.pry
+    end
+    content.strip
   end
 
   def self.play_with_year_in_mongo(year)

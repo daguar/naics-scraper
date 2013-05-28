@@ -21,3 +21,4 @@ describe NaicsScraper, "::get_content_for_code" do
     @code_content.should eq("This industry comprises establishments primarily engaged in the merchant wholesale distribution of motor vehicle supplies, accessories, tools, and equipment; and new motor vehicle parts (except new tires and tubes).")
   end
 end
+

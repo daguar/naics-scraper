@@ -2,6 +2,7 @@ require 'pry'
 require 'httparty'
 require 'nokogiri'
 require 'mongo'
+require 'json'
 require 'vcr'
 require 'webmock'
 
@@ -24,7 +25,7 @@ module NaicsScraper
         puts "Working on #{item['code']}..."
         code_data = { code: item["code"] }
         begin
-          code_data[:content] = get_content_for_code(item["code"])
+          code_data[:content] = get_content_for_code(item["code"], year)
         # In case our scraper's indexing is FUBAR for a code
         rescue NoMethodError
           code_data[:content] = nil
@@ -59,18 +60,20 @@ module NaicsScraper
   end
 =end
 
-  def self.get_content_for_code(code)
-    response = HTTParty.get("http://www.census.gov/cgi-bin/sssd/naics/naicsrch?code=#{code}&search=2012%20NAICS%20Search")
-    parsed_doc = Nokogiri::HTML(response.body)
-    pieces = parsed_doc.css("#middle-column .inside")
-    if code.to_s.length == 6
-      content = pieces[0].children[10].children[2].text
-    elsif code.to_s.length == 5
-      content = pieces[0].children[10].children[4].text
-    else
-      binding.pry
+  def self.get_content_for_code(code, year)
+    VCR.use_cassette("response_for_#{year}_#{code}") do
+      response = HTTParty.get("http://www.census.gov/cgi-bin/sssd/naics/naicsrch?code=#{code}&search=#{year}%20NAICS%20Search")
+      parsed_doc = Nokogiri::HTML(response.body)
+      pieces = parsed_doc.css("#middle-column .inside")
+      if code.to_s.length == 6
+        content = pieces[0].children[10].children[2].text
+      elsif code.to_s.length == 5
+        content = pieces[0].children[10].children[4].text
+      else
+        binding.pry
+      end
+      content.strip
     end
-    content.strip
   end
 
   def self.play_with_year_in_mongo(year)

@@ -19,8 +19,7 @@ module NaicsScraper
     initialize_mongo_for_year(year)
     all_codes_for_year = get_codes_for_year(year)
     all_codes_for_year["items"].each do |item|
-      # I believe descriptions are only for 5- and 6-character codes
-      # Also check that we haven't already saved to Mongo for that code
+      # Check that we haven't already saved to Mongo for that code
       if item["code"].to_s.length > 4 && @@coll.find("code"=>item["code"]).to_a.count == 0
         puts "Working on #{item['code']}..."
         code_data = { code: item["code"] }
@@ -47,18 +46,8 @@ module NaicsScraper
     # May want to add error handling for year constraints (eg, only allow args of 2012/2007/2002)
     VCR.use_cassette("data_for_year_#{year}") do
       response = HTTParty.get("http://naics-api.herokuapp.com/v0/q?year=#{year}")
-      #response = Net::HTTP.get_response(URI("http://naics-api.herokuapp.com/v0/q?year=#{year}"))
     end
   end
-
-=begin
-  def self.get_or_load_response(request_uri)
-    VCR.use_cassette("data_for_year_#{year}") do
-      response = HTTParty.get("http://naics-api.herokuapp.com/v0/q?year=#{year}")
-      #response = Net::HTTP.get_response(URI("http://naics-api.herokuapp.com/v0/q?year=#{year}"))
-    end
-  end
-=end
 
   def self.get_response_for_code(code, year)
     VCR.use_cassette("response_for_#{year}_#{code}") do

@@ -42,6 +42,8 @@ The main way to get all the data for a year is to do:
 
 `NaicsScraper.put_year_content_in_mongo(2012)`
 
+The scraper uses VCR to cache responses locally, both for web-citizenry purposes and to speed up testing new content-scraping approaches.
+
 ## Contributing
 
 Shoot on over a GitHub Issue. This is very much a script right now, so no formal process for contributing.

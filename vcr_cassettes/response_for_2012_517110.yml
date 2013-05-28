@@ -1,0 +1,1515 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.census.gov/cgi-bin/sssd/naics/naicsrch?code=517110&search=2012%20NAICS%20Search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html
+      Date:
+      - Tue, 28 May 2013 03:14:22 GMT
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - Transfer-Encoding
+      - keep-alive
+      Set-Cookie:
+      - BIGipServerwww_pool_80=378673324.20480.0000; path=/
+      - TSc37903=9ac50a0fb885591bca612820beb77e6016afb74a67f0953551a4210e2ac1c4d4b89d1723;
+        Path=/
+    body:
+      encoding: US-ASCII
+      string: ! "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\"
+        xml:lang=\"en\" lang=\"en\"><!-- InstanceBegin template=\"/Templates/2col_2009_02.dwt\"
+        codeOutsideHTMLIsLocked=\"false\" -->\n<head>\n<!--Each page must contain
+        this info, per OMB, update info as neccessary-->\n<meta http-equiv=\"Content-Type\"
+        content=\"text/html; charset=utf-8\" />\n<!-- InstanceBeginEditable name=\"meta
+        info\" -->\n<meta name=\"DC.title\" content=\"US Census Bureau Site North
+        American Industry Classification System main page\" />\n<meta name=\"DC.description\"
+        content=\"North American Industry Classification System web site\" />\n<meta
+        name=\"DC.creator\" content=\"US Census Bureau Special Projects Staff, SSSD\"
+        />\n<meta name=\"DC.date.created\" scheme=\"ISO8601\" content=\"2010-11-02\"
+        />\n<meta name=\"DC.date.reviewed\" scheme=\"ISO8601\" content=\"2010-10-02\"
+        />\n<meta name=\"DC.language\" scheme=\"DCTERMS.RFC1766\" content=\"EN-US\"
+        />\n<meta name=\"author\" content=\"Pam Sadowski, SSSD\" />\n<meta name=\"robots\"
+        content=\"noodp\" />\n<!-- InstanceEndEditable --><!-- InstanceBeginEditable
+        name=\"Page Title\" -->\n<title>NAICS Search</title>\n<!-- InstanceEndEditable
+        -->\n<!-- Site wide JS -->\n<script type=\"text/javascript\" src=\"/main/javascript/ruthsarian_utilities.js\"></script>\n<script
+        type=\"text/javascript\">\n                                <!--\n                        if
+        ( ( typeof( set_min_width ) ).toLowerCase() != 'undefined' ) { set_min_width(
+        'page-container' , 853 ); }\n                        if ( ( typeof( sfHover
+        ) ).toLowerCase() != 'undefined' ) { event_attach( 'onload' , function ()
+        { \n                                sfHover( 'middlemenu' );\n                        }
+        ); }\n                //-->\n                </script>\n<script type=\"text/javascript\"
+        src=\"/main/javascript/unlink.js\"></script>\n<script type=\"text/javascript\"
+        src=\"/main/javascript/jquery.js\"></script>\n<!--End JavaScript Links-->\n<!--
+        CSS Styles -->\n<!-- InstanceBeginEditable name=\"css\" -->\n<!-- You can
+        edit the path to the CSS.  CSS MUST stay in a folder called \"css\" on the
+        server-->\n<link href=\"/eos/www/naics/css/SiteDefined.css\" rel=\"stylesheet\"
+        type=\"text/css\" media=\"screen\" />\n<link href=\"/main/css/print.css\"
+        rel=\"stylesheet\" type=\"text/css\" media=\"print\" />\n<!-- InstanceEndEditable
+        -->\n<link href=\"/main/css/menus.css\" rel=\"stylesheet\" type=\"text/css\"
+        media=\"all, handheld\" />\n<link href=\"/main/css/2col.css\" rel=\"stylesheet\"
+        type=\"text/css\" media=\"screen\" />\n</head>\n<body>\n<div id=\"page-container\">\n
+        \ <noscript>\n  This Javascript allows the page in IE to resize to the minimum
+        width of 853 pixels and no less.\n  </noscript>\n\n<!-- START CB Header 03/07/2013
+        -->\n<!-- Start code for web metrics - SiteCatalyst -->\n<script src=\"/main/javascript/s_code.js\"
+        type=\"text/javascript\"></script>\n<script type=\"text/javascript\">\n        var
+        s_code=s.t();if(s_code)document.write(s_code)\n</script>\n<!-- End code for
+        web metrics - SiteCatalyst -->\n\n<script type=\"text/javascript\">\n<!--\n//This
+        JavaScript shows and hides the drop-down menus. In order for it to work, the
+        tabs must be named with a prefix and a type.\n//For example: \"geoOuter\"
+        is the ID of the outer div for the Geography menu\n//              \"geoTab\"
+        is the ID of the li for the Geography main menu\n//              \"geoAnchor\"
+        is the ID for the anchor tag containing the \"Geography\" text\n  function
+        show(id) {\n                                document.getElementById(id+'Outer').style.visibility
+        = \"visible\";\n                                document.getElementById(id+'Tab').style.backgroundColor=
+        \"#d4e9f9\";\n                                document.getElementById(id+'Anchor').style.color=
+        \"#003366\";\n                                }\n\n  function hide(id) {\n
+        \                               document.getElementById(id+'Outer').style.visibility
+        = \"hidden\";\n                                document.getElementById(id+'Tab').style.backgroundColor=
+        \"transparent\";\n                                document.getElementById(id+'Anchor').style.color=
+        \"#ffffff\";\n                                }\n\n// this function determines
+        whether the event is the equivalent of the microsoft\n// mouseleave or mouseenter
+        events.\n  function isMouseLeaveOrEnter(e, handler)\n  {\n                                if
+        (e.type != 'mouseout' && e.type != 'mouseover') return false;\n                                var
+        reltg = e.relatedTarget ? e.relatedTarget :\n                                e.type
+        == 'mouseout' ? e.toElement : e.fromElement;\n                                while
+        (reltg && reltg != handler) reltg = reltg.parentNode;\n                                return
+        (reltg != handler);\n  }\n-->\n</script>\n\n<!--CB_header-->\n<div id=\"cb_header\"
+        style=\"min-width: 960px; background-color: rgb(12,59,114); background-attachment:
+        scroll; background-position: 0pt -30px; margin: 0; padding: 0; font-family:
+        Arial,Helvetica,sans-serif; z-index: 99999; height: 80px; position: relative;\">\n\n<!--Commerce-->\n<div
+        id=\"Commerce\" style=\"font-size:9px; color:#fff; position:absolute; left:
+        32px; top: 4px; z-index: 999;\">U.S. Department of Commerce</div>\n<!--Close
+        Commerce-->\n\n<div id=\"CB_Logo\" style=\"height: 44px; float: left; width:
+        135px; position:absolute; left: 28px; top:23px; z-index:998; overflow:hidden;\">\n
+        \ <div style=\"display: none;\">US Census Bureau</div><a href=\"/\"><img src=\"/main/img/home/CensusLogo-white.png\"
+        alt=\"US Census Bureau Logo\" style=\"float: left; margin: -9px 0px 14px -5px;
+        border: 1px solid transparent;\" width=\"143\" height=\"65\" /></a>\n</div><!--
+        Close CB_Logo -->\n\n<a href=\"#SKIP_HDR\" class=\"skiplink ui-state-highlight
+        ui-corner-all\" title=\"Skip Header\" style=\"position:absolute; left:-10000px;
+        top:auto; width:1px; height:1px; overflow:hidden;'\">Skip header section</a>\n\n<!--
+        \ Primary Nav-->\n\n<div id=\"mainNav\" style=\"position:absolute; right:0px;
+        top:6px; height: 12px; margin: 3px 3px 15px 0pt; width: 260px; z-index:999;\">\n
+        \  <ul style=\"margin: 0pt; padding: 1px 0; list-style: none outside none;
+        color: rgb(255, 255, 255); font-size: 7pt;\">\n\n                 <li style=\"float:
+        left;\"><a href=\"/\" style=\"text-decoration: none; color: rgb(255, 255,
+        255); display: block;  padding: 0pt 5px; border-right: 1px solid; background:
+        transparent;  float: left;  display:block;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='transparent';\"
+        onmouseout=\"this.style.textDecoration='none';\" onfocus=\"this.style.textDecoration='underline'\"
+        \ onblur=\"this.style.textDecoration='none'\">Home</a></li>\n\n                 <li
+        style=\"float: left;\"><a href=\"/aboutus/social_media.html\" style=\"text-decoration:
+        none; color: rgb(255, 255, 255); padding: 0pt 5px; border-right: 1px solid;
+        background: transparent; float: left;  display:block;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='transparent';\"
+        onmouseout=\"this.style.textDecoration='none';\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Blogs</a></li>\n\n                 <li
+        style=\"float: left;\"><a href=\"/aboutus/\" style=\"text-decoration: none;
+        color: rgb(255, 255, 255); padding: 0pt 5px; border-right: 1px solid; background:
+        transparent; float: left;  display:block;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='transparent';\"
+        onmouseout=\"this.style.textDecoration='none';\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">About Us</a></li>\n\n                 <li
+        style=\"float: left;\"><a href=\"/main/www/a2z\" style=\"text-decoration:
+        none; color: rgb(255, 255, 255); padding: 0pt 5px; border-right: 1px solid;
+        background: transparent; float: left;  display:block;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='transparent';\"
+        onmouseout=\"this.style.textDecoration='none';\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Subjects A to Z</a></li>\n\n                 <li
+        style=\"float: left;\"><a href=\"http://ask.census.gov/\" style=\"text-decoration:
+        none; color: rgb(255, 255, 255); padding: 0pt 5px; border-right: 1px solid;
+        background: transparent; float: left; display:block;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='transparent';\"
+        onmouseout=\"this.style.textDecoration='none';\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">FAQs</a></li>\n\n                 <li
+        style=\"float: left;\"><a href=\"/main/www/help.html\" style=\"text-decoration:
+        none; color: rgb(255, 255, 255); padding: 0pt 5px; border-right: 0px solid;
+        background: transparent; float: left;  display:block;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='transparent';\"
+        onmouseout=\"this.style.textDecoration='none';\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Help</a></li>\n\n  </ul>\n\n</div>\n\n<!--End
+        Primary Nav-->\n\n\n\n<!--CB_header_inner-->\n\n\n\n<div id=\"CB_header_inner\"
+        \ style=\"width: 1000px; height:80px; margin: 0pt auto; padding:0; background-image:
+        url(/main/img/home/HeaderImage.png); background-repeat: no-repeat; clear:
+        both; position: relative; white-space:nowrap \">\n\n<!--Secondary Nav -->\n\n
+        \ <div id=\"CB_secondaryNav\" style=\"margin:0 auto; width:1000px; z-index:997;
+        background-color: transparent; white-space:nowrap; \">\n\n<ul style=\"margin:
+        0pt; padding: 1px 0; list-style: none outside none; color: rgb(255, 255, 255);
+        font-size: 16px; line-height:18px; font-weight: bold; padding-top:45px;\"
+        id=\"global-subnav\">\n\n<!-- Start People Tab -->\n\n<li id=\"peopleTab\"
+        style=\"display: block; float: left; margin:0;  margin: 0 0 0 200px; border-left:
+        0px solid rgb(212, 233, 249); overflow: hidden; text-decoration: none; background:
+        transparent;\" onmouseover=\"if (isMouseLeaveOrEnter(event, this)) show('people');\"
+        onmouseout=\"if (isMouseLeaveOrEnter(event, this)) hide('people');\"><a id=\"peopleAnchor\"
+        href=\"/people/\" accesskey=\"p\" style=\"font-size:16px; color: rgb(255,
+        255, 255); text-decoration: none; background: transparent; float: left; display:
+        block; padding: 3px 15px 4px 15px;  :visited {background-color: none; color:
+        rgb(255, 255, 255)};\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='transparent';\"
+        onmouseout=\"this.style.textDecoration='none';\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">People</a>\n\n<!--People Menu
+        Outer-->\n\n <div class=\"menu\" id=\"peopleOuter\" style=\"width: 945px;
+        overflow: hidden; z-index: 99; position: absolute; left: 40px; top: 68px;
+        visibility: hidden; \">\n\n<!--People Menu Inner-->\n\n   <div style=\"color:
+        rgb(0, 51, 102); background-color: rgb(212, 233, 249); border-right: 1px solid
+        rgb(0, 51, 102); border-width: 0pt 1px 1px; border-style: solid; border-color:
+        rgb(0, 51, 102); text-align: left; padding: 10px 5px 5px 5px; z-index: 100;
+        position: relative; overflow: hidden; height: auto;\">\n\n        <ul id=\"people-ul-first\"
+        style=\"float: left; margin: 0px; list-style: none outside none; padding:
+        0pt 10px; font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102);\">\n\n                <li><a
+        href=\"/population/age/\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Age and Sex</a></li>\n\n                <li><a href=\"/population/ancestry/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Ancestry</a></li>\n\n                <li><a href=\"/did/www/births/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Births</a></li>\n\n                <li><a href=\"/hhes/socdemo/children/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Children</a></li>\n\n                <li><a href=\"/hhes/commuting/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Commuting (Journey to Work)</a></li>\n\n                <li><a href=\"/hhes/computer/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Computer and Internet Use</a></li>\n\n                <li><a href=\"/population/apportionment/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Congressional Apportionment</a></li>\n\n                <li><a href=\"/did/www/deaths/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Deaths</a></li>\n\n                <li><a href=\"/people/disability/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Disability</a></li>\n\n                <li><a href=\"/people/disabilityemptab/
+        \" style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Disability Employment Tabulation</a></li>\n\n                <li><a href=\"/hhes/socdemo/education/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Educational Attainment</a></li>\n\n                <li><a href=\"/people/eeotabulation/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';
+        this.style.backgroundColor='#ffc'\" onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\">Equal
+        Employment Opportunity <br />&nbsp;(EEO) Tabulation</a></li>\n\n                <li><a
+        href=\"/hhes/families/\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Families and Living Arrangements</a></li>\n\n                <li><a href=\"/hhes/fertility/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Fertility</a></li>\n        </ul>\n\n        <ul id=\"people-ul-second\"
+        style=\"float: left; margin: 0px; list-style: none outside none; padding:
+        0pt 10px; font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102);\">\n\n                <li><a
+        href=\"/population/foreign/\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Foreign-Born</a></li>\n\n                <li><a href=\"/genealogy/www/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Genealogy</a></li>\n\n                <li><a href=\"/hhes/migration/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Geographical Mobility/Migration</a></li>\n\n                <li><a href=\"/hhes/www/hlthins/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Health Insurance</a></li>\n\n                <li><a href=\"/population/hispanic/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Hispanic Origin</a></li>\n\n                <li><a href=\"/housing/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Housing</a></li>\n\n                <li><a href=\"/population/intmigration/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Immigration</a></li>\n\n                <li><a href=\"/hhes/www/income/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Income</a></li>\n\n                <li><a href=\"/people/io/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Industry and Occupation</a></li>\n\n                <li><a href=\"/population/international/data/idb/informationGateway.php\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >International Data Base</a></li>\n\n                <li><a href=\"/population/international/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >International Statistics</a></li>\n\n                <li><a href=\"/people/laborforce/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Labor Force Statistics</a></li>\n\n                <li><a href=\"/hhes/socdemo/language/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Language Use</a></li>\n\n                <li><a href=\"/hhes/socdemo/marriage/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Marriage and Divorce</a></li>\n\n                <li><a href=\"/population/metro/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Metropolitan and Micropolitan Statistical Areas</a></li>\n        </ul>\n\n
+        \       <ul id=\"people-ul-third\" style=\"float: left; margin: 0px; list-style:
+        none outside none; padding: 0pt 10px; font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102);\">\n\n                <li><a href=\"/hhes/migration/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Migration</a></li>\n\n                <li><a href=\"/popest/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Population Estimates</a></li>\n\n                <li><a href=\"/population/projections/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Population Projections</a></li>\n\n                <li><a href=\"/hhes/www/poverty/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Poverty</a></li>\n\n                <li><a href=\"/population/race/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Race</a></li>\n\n                <li><a href=\"/rdo/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Redistricting and Voting Rights Data</a></li>\n\n                <li><a href=\"/hhes/samesex/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Same Sex Couples</a></li>\n\n                <li><a href=\"/did/www/schooldistricts/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >School Districts</a></li>\n\n                <li><a href=\"/hhes/school/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >School Enrollment</a></li>\n\n                <li><a href=\"/did/www/sahie/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Small Area Health Insurance Estimates</a></li>\n\n                <li><a
+        href=\"/did/www/saipe/\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Small Area Income and Poverty Estimates</a></li>\n\n                <li><a
+        href=\"/hhes/veterans/\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Veterans</a></li>\n\n                <li><a href=\"/hhes/www/socdemo/voting/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Voting and Registration</a></li>\n\n                <li><a href=\"/people/wealth/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Wealth and Asset Ownership</a></li>\n\n                <li><a href=\"/hhes/well-being/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Well-Being</a></li>\n        </ul>\n\n        <ul id=\"people-ul-fourth\"
+        style=\"height: 300px; border-left: 1px solid rgb(0, 51, 102); float: left;
+        margin: 0px; list-style: none outside none; padding: 0pt 10px; font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102);\">\n\n                <li style=\"font-family:
+        Arial,Helvetica,sans-serif; font-size: 9pt; line-height: 15pt;color: rgb(0,
+        51, 102); text-decoration: none; font-weight: bold;\">Related Content</li>\n\n
+        \               <li><a href=\"/acs/www/\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >American Community Survey</a></li>\n\n                <li><a href=\"/2010census/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >2010 Census</a></li>\n\n                <li><a href=\"/main/www/cen2000.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >2000 Census</a></li>\n\n                <li><a href=\"/popest/estimates.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Estimates</a></li>\n        </ul>\n        <div style=\"clear: both;\"></div>\n
+        \  </div><!--END People Menu Inner-->\n </div><!--END People Menu Outer-->\n</li>
+        <!-- End People Tab -->\n\n<!-- Start Business Tab -->\n\n<li id=\"businessTab\"
+        style=\"display: block; float: left; margin:0; border-left: 1px solid rgb(212,
+        233, 249); overflow: hidden; text-decoration: none; background: transparent;\"
+        onmouseover=\"if (isMouseLeaveOrEnter(event, this)) show('business');\" onmouseout=\"if
+        (isMouseLeaveOrEnter(event, this)) hide('business');\"><a id=\"businessAnchor\"
+        href=\"/econ/\" accesskey=\"b\" style=\"font-size:16px; color: rgb(255, 255,
+        255); text-decoration: none; background: transparent; float: left; display:
+        block;  padding: 3px 15px 4px;  :visited {background-color: none; color: rgb(255,
+        255, 255)};\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='transparent';\"
+        onmouseout=\"this.style.textDecoration='none';\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Business</a>\n\n<!--Business Menu
+        Outer-->\n\n <div id=\"businessOuter\" style=\"width: 632px; overflow: hidden;
+        z-index: 991; position: absolute; left: 40px; top: 68px; visibility: hidden;\">\n\n<!--Business
+        Menu Inner-->\n\n   <div style=\"color: rgb(0, 51, 102); background-color:
+        rgb(212, 233, 249); border-right: 1px solid rgb(0, 51, 102); border-width:
+        0pt 1px 1px; border-style: solid; border-color: rgb(0, 51, 102); text-align:
+        left; padding: 10px 5px 5px 5px;  z-index: 100; position: relative; overflow:
+        hidden; height: auto;\">\n\n        <ul id=\"business-menu-first\" style=\"float:
+        left; margin: 0px; list-style: none outside none; padding: 0pt 10px; font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102);\">\n\n                <li style=\"font-family:
+        Arial,Helvetica,sans-serif; font-size: 9pt; line-height: 15pt;color: rgb(0,
+        51, 102); text-decoration: none; font-weight: bold;\">Tools</li>\n\n                <li><a
+        href=\"http://bhs.econ.census.gov/bhs/\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Get Help with Your Form</a></li>\n\n                <li><a href=\"/econ/industry/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Data by Industry</a></li>\n\n                <li><a href=\"/econ/geography.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Data by Geography</a></li>\n\n                <li><a href=\"/econ/survey.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Data by Survey</a></li>\n\n                <li><a href=\"http://factfinder2.census.gov/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >American Fact Finder</a></li>\n\n                <li><a href=\"/econ/census/snapshots/index.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Industry Snapshots</a></li>\n\n                <li><a href=\"/econ/currentdata/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Indicators Database</a></li>\n        </ul>\n\n        <ul id=\"business-menu-second\"
+        style=\"float: left; margin: 0px; list-style: none outside none; padding:
+        0pt 10px; font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102);\">\n\n                <li
+        style=\"font-family: Arial,Helvetica,sans-serif; font-size: 9pt; line-height:
+        15pt;color: rgb(0, 51, 102); text-decoration: none; font-weight: bold;\">Data
+        by Sector</li>\n\n                <li><a href=\"/econ/economywide.html\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Economy-Wide</a></li>\n\n                <li><a href=\"/econ/construction.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Construction</a></li>\n\n                <li><a href=\"/govs/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Governments</a></li>\n\n                <li><a href=\"/econ/manufacturing.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Manufacturing</a></li>\n\n                <li><a href=\"/econ/retail.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Retail Trade</a></li>\n\n                <li><a href=\"/econ/services.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Services</a></li>\n\n                <li><a href=\"/econ/wholesale.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Wholesale Trade</a></li>\n\n                <li><a href=\"/econ/other.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Other Sectors</a></li>\n        </ul>\n\n        <ul id=\"business-menu-third\"
+        style=\"float: left; margin: 0px; list-style: none outside none; padding:
+        0pt 10px; font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102);\">\n\n                <li
+        style=\"font-family: Arial,Helvetica,sans-serif; font-size: 9pt; line-height:
+        15pt;color: rgb(0, 51, 102); text-decoration: none; font-weight: bold;\">Business
+        Topics</li>\n\n                <li><a href=\"/econ/bes/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Business Expenses</a></li>\n\n                <li><a href=\"/econ/concentration.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Concentration</a></li>\n\n                <li><a href=\"/econ/estats/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >E-Commerce</a></li>\n\n                <li><a href=\"/foreign-trade/schedules/b/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Export Codes</a></li>\n\n                <li><a href=\"/ces/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Economic Studies</a></li>\n\n                <li><a href=\"/eos/www/naics/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        \ title=\"North American Industry Classification System\">NAICS</a>\n\n                /<a
+        href=\"/eos/www/napcs/\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        \ title=\"North American Product Classification System\">NAPCS</a></li>\n\n
+        \               <li><a href=\"/econ/smallbus.html\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Small Business</a></li>\n\n                <li><a href=\"/econ/esp/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\">Enterprise
+        Statistics</a></li>\n\n                <li><a href=\"/econ/sbo\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Women/Minorities/Veterans</a></li>\n        </ul>\n\n        <ul id=\"business-menu-fourth\"
+        style=\"float: left; margin: 0px; list-style: none outside none; padding:
+        0pt 10px; font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102);\">\n\n                <li
+        style=\"font-family: Arial,Helvetica,sans-serif; font-size: 9pt; line-height:
+        15pt;color: rgb(0, 51, 102); text-decoration: none; font-weight: bold;\">Popular
+        Resources</li>\n\n                <li><a href=\"/econ/census07/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Economic Census</a></li>\n\n                <li><a href=\"/econ/cbp/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Business Patterns</a></li>\n\n                <li><a href=\"/cgi-bin/briefroom/BriefRm\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Economic Indicators</a></li>\n\n                <li><a href=\"/ces/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Economic Studies</a></li>\n\n                <li><a href=\"/foreign-trade/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Foreign Trade</a></li>\n\n                <li><a href=\"http://lehd.ces.census.gov/led/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Local Employment Dynamics</a></li>\n        </ul>\n        <div style=\"clear:
+        both;\"></div>\n   </div><!--END Business Menu Inner-->\n </div><!--END Business
+        Menu Outer-->\n</li> <!--End Business Tab -->\n\n<!--Start Geography Tab -->\n\n<li
+        id=\"geoTab\" style=\"display: block; float: left; margin:0; border-left:
+        1px solid rgb(212, 233, 249); overflow: hidden; text-decoration: none; background:
+        transparent;\" onmouseover=\"if (isMouseLeaveOrEnter(event, this)) show('geo');\"
+        onmouseout=\"if (isMouseLeaveOrEnter(event, this)) hide('geo');\"><a id=\"geoAnchor\"
+        href=\"/geo/\" accesskey=\"g\" style=\"font-size:16px; color: rgb(255, 255,
+        255); text-decoration: none; background: transparent;  float: left; display:
+        block; padding: 3px 15px 4px;   :visited {background-color: none; color: rgb(255,
+        255, 255)};\" onmouseover=\"this.style.textDecoration='underline'; this.style.backgroundColor='transparent';\"
+        onmouseout=\"this.style.textDecoration='none';\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Geography</a>\n\n<!--Geography
+        Menu Outer-->\n\n <div id=\"geoOuter\" style=\"width: 300px; overflow: hidden;
+        z-index: 990; position: absolute; left: 294px; top: 68px; visibility: hidden;\">
+        <!--To adjust dropdown position change left positioning-->\n\n<!--Geography
+        Menu Inner-->\n\n   <div style=\"color: rgb(0, 51, 102); background-color:
+        rgb(212, 233, 249); border-right: 1px solid rgb(0, 51, 102); border-width:
+        0pt 1px 1px; border-style: solid; border-color: rgb(0, 51, 102); text-align:
+        left; padding: 10px 5px 5px 10px;  z-index: 100; position: relative; overflow:
+        hidden; height: auto;\">\n\n        <ul style=\"margin: 0pt; padding: 0pt
+        10px 0pt 0pt; list-style: none outside none; font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt;\">\n\n                <li><a
+        href=\"/geo/education/\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Education</a></li>\n\n                <li><a href=\"/geo/maps-data/data/gazetteer.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Gazetteer</a></li>\n\n                <li><a href=\"/geo/partnerships/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Geographic Partnerships</a></li>\n\n                <li><a href=\"/geo/www/gss/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Geographic Support System (GSS) Initiative</a></li>\n\n                <li><a
+        href=\"/geo/reference/geoguide.html\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Guide to State and Local Census Geography</a></li>\n\n                <li><a
+        href=\"/geo/maps-data/\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Maps and Data</a></li>\n\n                <li><a href=\"/population/metro/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Metropolitan and Micropolitan Statistical Areas</a></li>\n\n                <li><a
+        href=\"/geo/reference/\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Reference</a></li>\n\n                <li><a href=\"/geo/reference/terms.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Terms and Concepts</a></li>\n\n                <li><a href=\"/geo/maps-data/data/tiger.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >TIGER</a></li>\n\n                <li><a href=\"/geo/reference/zctas.html
+        \" style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >ZIP Code Tabulation Areas</a></li>\n        </ul>\n   </div><!--END Geography
+        Menu Inner -->\n </div><!--END Geography Menu Outer-->\n</li> <!--End Geography
+        Tab -->\n\n<!--Start Data Tab -->\n\n<li id=\"dataTab\" style=\"display: block;
+        float: left; margin:0; border-left: 1px solid rgb(212, 233, 249); overflow:
+        hidden; text-decoration: none; background: transparent;\" onmouseover=\"if
+        (isMouseLeaveOrEnter(event, this)) show('data');\" onmouseout=\"if (isMouseLeaveOrEnter(event,
+        this)) hide('data');\"><a id=\"dataAnchor\" href=\"/main/www/access.html\"
+        accesskey=\"d\" style=\"font-size:16px; color: rgb(255, 255, 255); text-decoration:
+        none; background: transparent; display: block; float: left; padding: 3px 15px
+        4px; :visited {background-color: none; color: rgb(255, 255, 255)};\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='transparent';\"
+        onmouseout=\"this.style.textDecoration='none';\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Data</a>\n\n<!--Data Menu Outer-->\n\n
+        <div id=\"dataOuter\" style=\"width: 145px; overflow: hidden; z-index: 999;
+        position: absolute; left: 463px; top: 68px; visibility: hidden;\"> <!--To
+        adjust dropdown position change left positioning-->\n\n<!--Data Menu Inner-->\n\n
+        \  <div style=\"color: rgb(0, 51, 102); background-color: rgb(212, 233, 249);
+        border-right: 1px solid rgb(0, 51, 102); border-width: 0pt 1px 1px; border-style:
+        solid; border-color: rgb(0, 51, 102); text-align: left; padding: 10px 5px
+        5px 12px;  z-index: 100; position: relative; overflow: hidden; height: auto;\">\n\n
+        \       <ul style=\"margin: 0pt; padding: 0pt 10px 0pt 0pt; list-style: none
+        outside none; font-family: Arial,Helvetica,sans-serif; font-weight: normal;
+        font-size: 9pt; line-height: 15pt;\">\n\n                <li><a href=\"http://quickfacts.census.gov/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Quick Facts</a></li>\n\n                <li><a href=\"http://factfinder2.census.gov/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >American FactFinder</a></li>\n\n                <li><a href=\"/easystats/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Easy Stats</a></li>\n\n                <li><a href=\"/popfinder/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Population Finder</a></li>\n\n                <li><a href=\"/acs/www/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >American Community<br />&nbsp;Survey</a></li>\n\n                <li><a href=\"/2010census/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >2010 Census</a></li>\n\n                <li><a href=\"/econ/census07/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Economic Census</a></li>\n\n                <li><a href=\"/2010census/popmap/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Interactive Maps</a></li>\n\n                <li><a href=\"/dataviz/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Data Visualizations</a></li>\n\n                <li><a href=\"/mso/www/training/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Training &amp; Workshops</a></li>\n\n                <li><a href=\"/main/www/access.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Data Tools</a></li>\n\n                <li><a href=\"/mp/www/cat/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Catalogs</a></li>\n\n                <li><a href=\"/prod/www/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Publications</a></li>\n        </ul>\n   </div> <!-- End Data Menu Inner-->\n
+        </div>  <!-- End Data Menu Outer-->\n</li><!--End Data Tab -->\n\n<!--Start
+        Research Tab-->\n\n<li id=\"researchTab\" style=\"display: block; float: left;
+        margin:0; border-left: 1px solid rgb(212, 233, 249); overflow: hidden; text-decoration:
+        none; background: transparent;\" onmouseover=\"if (isMouseLeaveOrEnter(event,
+        this)) show('research');\" onmouseout=\"if (isMouseLeaveOrEnter(event, this))
+        hide('research');\"><a id=\"researchAnchor\" href=\"/research/\" accesskey=\"r\"
+        style=\"font-size:16px; color: rgb(255, 255, 255); text-decoration: none;
+        background: transparent;  float: left;display: block; padding: 3px 15px 4px;
+        \ :visited {background-color: none; color: rgb(255, 255, 255)};\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='transparent';\"
+        onmouseout=\"this.style.textDecoration='none';\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Research</a>\n\n<!--Research Menu
+        Outer-->\n\n <div id=\"researchOuter\" style=\"width: 125px; overflow: hidden;
+        z-index: 9999; position: absolute; left: 558px; top: 68px; visibility: hidden;\">\n\n<!--Research
+        Menu Inner-->\n\n   <div style=\"color: rgb(0, 51, 102); background-color:
+        rgb(212, 233, 249); border-right: 1px solid rgb(0, 51, 102); border-width:
+        0pt 1px 1px; border-style: solid; border-color: rgb(0, 51, 102); text-align:
+        left; padding: 10px 5px 5px 5px; z-index: 100; position: relative; overflow:
+        hidden; height: auto;\">\n\n        <ul style=\"margin: 0pt; padding: 0pt
+        10px 0pt 0pt;   list-style: none outside none; font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; text-align: left;\">\n\n
+        \               <li><a href=\"/research/working_papers/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Working Papers</a></li>\n\n                <li><a href=\"/research/seminars/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\">Seminars</a></li>\n\n
+        \               <li><a href=\"/research/conferences/\" style=\"font-family:
+        Arial,Helvetica,sans-serif; font-weight: normal; font-size: 9pt; line-height:
+        15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';
+        this.style.backgroundColor='#ffc'\" onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\">Conferences</a></li>\n\n
+        \               <li><a href=\"/research/data/\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\">Research
+        Data</a></li>\n\n                <li><a href=\"/research/opportunities/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\">Work
+        With Us</a></li>\n        </ul>\n   </div><!-- End Research Menu Inner-->\n
+        </div><!-- End Research Menu Outer-->\n</li><!--End Research Tab -->\n\n<!--Start
+        Newsroom Tab-->\n\n<li id=\"newsroomTab\" style=\"display: block; float: left;
+        margin:0; border-left: 1px solid rgb(212, 233, 249); overflow: hidden; text-decoration:
+        none; background: transparent;\" onmouseover=\"if (isMouseLeaveOrEnter(event,
+        this)) show('newsroom');\" onmouseout=\"if (isMouseLeaveOrEnter(event, this))
+        hide('newsroom');\"><a id=\"newsroomAnchor\" href=\"/newsroom/\" accesskey=\"n\"
+        style=\"font-size:16px; color: rgb(255, 255, 255); text-decoration: none;
+        background: transparent; float: left; display: block; padding: 3px 15px 4px;
+        \ :visited {background-color: none; color: rgb(255, 255, 255)};\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='transparent';\"
+        onmouseout=\"this.style.textDecoration='none';\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Newsroom</a>\n\n<!--Newsroom Menu
+        Outer-->\n\n <div id=\"newsroomOuter\" style=\"width: 130px; overflow: hidden;
+        z-index: 9999; position: absolute; left: 664px; top: 68px; visibility: hidden;\">
+        <!--To adjust dropdown position change left positioning-->\n\n<!--Newsroom
+        Menu Inner-->\n\n   <div style=\"color: rgb(0, 51, 102); background-color:
+        rgb(212, 233, 249); border-right: 1px solid rgb(0, 51, 102); border-width:
+        0pt 1px 1px; border-style: solid; border-color: rgb(0, 51, 102); text-align:
+        left; padding: 10px 5px 5px 12px; z-index: 100; position: relative; overflow:
+        hidden; height: auto;\">\n\n        <ul style=\"margin: 0pt; padding: 0pt
+        10px 0pt 0pt; list-style: none outside none; font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; text-align: left;\">\n\n
+        \               <li><a href=\"/newsroom/releases/\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Releases</a></li>\n\n                <li><a href=\"/newsroom/releases/archives/tip_sheets/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Tip Sheets</a></li>\n\n                <li><a href=\"/newsroom/releases/archives/facts_for_features_special_editions/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Facts for Features</a></li>\n\n                <li><a href=\"/multimedia/\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Multimedia Gallery</a></li>\n\n                <li><a href=\"http://directorsblog.blogs.census.gov/
+        \" style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Director's Blog</a></li>\n\n                <li><a href=\"/aboutus/social_media.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\">Blogs</a></li>\n\n
+        \               <li><a href=\"/newsroom/minority_links/minority_links.html\"
+        style=\"font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size:
+        9pt; line-height: 15pt; color: rgb(0, 51, 102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Minority Links</a></li>\n\n                <li><a href=\"/newsroom/contact_us.html\"
+        title=\"newsroom contact information\" style=\"font-family: Arial,Helvetica,sans-serif;
+        font-weight: normal; font-size: 9pt; line-height: 15pt; color: rgb(0, 51,
+        102); text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline';this.style.backgroundColor='#ffc'\"
+        onmouseout=\"this.style.textDecoration='none';this.style.backgroundColor='#D4E9F9'\"
+        >Contact Us</a></li>\n        </ul>\n   </div> <!-- End Newsroom Menu Inner-->\n
+        </div>  <!-- End Newsroom Menu Outer-->\n</li><!--End Newsroom Tab -->\n</ul>\n</div>
+        \ <!--secondaryNav-->\n<div style=\"clear:both\"></div>\n\n</div> <!--End
+        CB_header inner-->\n\n<!--Search-->\n\n<div id=\"search_items\" style=\"width:
+        182px; margin: 12px 0 0 12px; position:absolute; top:30px; right:0px;\">\n<!--
+        begin usa gov search form -->\n  <form id=\"search_form\" method=\"get\" action=\"http://search.census.gov/search\"
+        accept-charset=\"UTF-8\">\n    <div id=\"CB_search\" style=\"float: left;
+        margin: 0;\">\n        <div style=\"display: inline-block;\"><input name=\"utf8\"
+        type=\"hidden\" value=\"&#x2713;\" />\n            <input id=\"affiliate\"
+        name=\"affiliate\" type=\"hidden\" value=\"census\" />\n            <label
+        for=\"query\" style=\"left: -9999px; position: absolute; text-indent: -9999px;\">Search</label>\n
+        \           <input id=\"query\" name=\"query\" type=\"text\" class=\"usagov-search-autocomplete\"\n
+        \           onfocus=\"this.value='';\" value=\"Search\" maxlength=\"256\"
+        alt=\"Search the US Census Bureau site\"\n            style=\"background-image:
+        url(/main/img/home/icon_search.gif); #000; color: rgb(102, 102, 102); font-size:11px;
+        padding-top:2px; padding-left: 15px; background-repeat: no-repeat; background-position:
+        0 2px; background-color: rgba(255,255,255,1); background-attachment: scroll;\"
+        />\n        </div>\n    </div> <!-- Close id CB_search -->\n    <div style=\"float:
+        left; padding: 1px 0 0 3px\" >\n        <input id=\"commit\" class=\"searchbtn\"
+        alt=\"Go\" src=\"/main/img/home/btn_go.gif\" name=\"commit\" type=\"image\"/>\n
+        \   </div>\n  </form>\n<!-- end usa gov search form -->\n</div> <!-- Close
+        id search_items -->\n<!-- End Search -->\n<a name=\"SKIP_HDR\"></a>\n</div>
+        <!--CB_header-->\n<!-- END CB Header 03/07/2013 -->\n\n\r\n\r\n  <div id=\"masthead\">\r\n
+        \   <h1><!-- InstanceBeginEditable name=\"Site Name\" -->North American Industry
+        Classification System<!-- InstanceEndEditable --></h1>\r\n  </div>\r\n  <span
+        style=\"height: 0; width: 0;  overflow: hidden;  position: absolute; font-size:
+        0;\"><a href=\"#SKIP2\" title=\"Skip Navigation\">Skip top of page navigation</a></span>\r\n
+        \ <!-- InstanceBeginEditable name=\"site Breadcrumb\" -->\r\n  <h6>You are
+        here: <a href=\"/\">Census.gov</a> &#8250; <a href=\"/econ/www/index.html\">Business
+        &amp; Industry</a> &#8250; <a href=\"/eos/www/naics/index.html\">NAICS</a>
+        &#8250; NAICS Search/Tools</h6>\r\n  <!-- InstanceEndEditable --> \r\n  \r\n
+        \ <div id=\"dropdown\" class=\"clearfix rMenu-hor rMenu\">\r\n<ul id=\"middlemenu\"
+        class=\"clearfix rMenu-hor rMenu\">\r\n\r\n <!-- InstanceBeginEditable name=\"Top
+        Navigation\" -->\r\n <!-- For most, you'll just need to edit the actual urls,
+        but not the top nav names.-->\r\n     <li style=\"text-align:center\" class=\"bord
+        selected\">Main<br />&nbsp;</li>\r\n     <li style=\"text-align:center\"><a
+        href=\"/eos/www/naics/history/history.html\" title=\"NAICS History\">History<br
+        />&nbsp;</a></li>\r\n     <li style=\"text-align:center\"><a href=\"/eos/www/naics/development_partners/devpartners.html\"
+        title=\"Development Partners\">Development <br />&nbsp;Partners</a></li>\r\n
+        \    <li style=\"text-align:center\"><a href=\"/eos/www/naics/federal_register_notices/fedregister.html\"
+        title=\"Federal Register Notices regarding NAICS\">Federal<br />&nbsp; Register
+        Notices</a></li>\r\n     <li style=\"text-align:center\"><a href=\"/eos/www/napcs/
+        \" title=\"North American Product Classification System\">NAPCS<br />&nbsp;</a></li>\r\n
+        \    <li style=\"text-align:center\"><a href=\"/eos/www/naics/faqs/faqs.html\"
+        title=\"Frequently asked questions about NAICS\">FAQs<br />&nbsp;</a></li>\r\n
+        \   </ul>\r\n  </div>\r\n\r\n\n\n  <script type=\"text/javascript\">\n    var
+        unlinker = new Unlinker('#dropdown ul > li', 'a', function(container) {\n
+        \  $(container).addClass('selected');\n   //$(container).fadeTo(2000, 0.5,
+        function() { $(container).removeClass('selected') });\n    });\n    unlinker.removeAllLinks();\n</script>\n
+        \ <noscript>\n  This Javascript highlights what section of the main navigation
+        you are on and unlinks its URL.\n  </noscript>\n  <a name=\"SKIP2\"></a>\n
+        \ <!-- horizontal nav end -->\n  <!--Includes end here-->\n  <div id=\"outer-column-container\">\n
+        \   <div id=\"inner-column-container\">\n      <div id=\"source-order-container\">\n
+        \       <div id=\"left-column\">\n          <div class=\"inside\">\n <span
+        style=\"height: 0; width: 0;  overflow: hidden;  position: absolute; font-size:
+        0;\"><a href=\"#SKIP3\" title=\"Skip Navigation\">Skip top of page navigation</a></span>
+        \ \n            <!-- Start left Nav -->\n            <!-- InstanceBeginEditable
+        name=\"Secondary Nav - Left Column\" -->\n              <!-- Features-->\n\n
+        <div class=\"navcontainer\">\n         \t\t<span style=\"height: 0; width:
+        0;  overflow: hidden;  position: absolute; font-size: 0;\"><a href=\"#SKIPLEFT\"
+        title=\"Skip left side navigation\">Skip left side navigation</a></span>\n<h3>NAICS
+        Search:</h3>\n\n<form action=\"/cgi-bin/sssd/naics/naicsrch\" method=\"post\">\n<label
+        for=\"a2012\">Enter keyword or 2-6 digit code\n<br />\n<input type=\"text\"
+        name=\"input\" id=\"a2012\" size='15' maxlength='40'/>\n</label>\n<br />\n<input
+        type=\"submit\" name=\"search\" value=\"2012 NAICS Search\" title=\"2012 NAICS
+        Search\"/>\n<input type=\"hidden\" name=\"search\" value=\"2012\" title=\"2012
+        NAICS Search\"/>\n</form>\n\n<br />\n\n<form action=\"/cgi-bin/sssd/naics/naicsrch\"
+        method=\"post\">\n<label for=\"a2007\">Enter keyword or 2-6 digit code\n<br
+        />\n<input type=\"text\" name=\"input\" id=\"a2007\" size='15' maxlength='40'/>\n</label>\n<br
+        />\n<input type=\"submit\" name=\"search\" value=\"2007 NAICS Search\" title=\"2007
+        NAICS Search\"/>\n<input type=\"hidden\" name=\"search\" value=\"2007\" title=\"2007
+        NAICS Search\"/>\n</form>\n\n<br />\n\n<form action=\"/cgi-bin/sssd/naics/naicsrch\"
+        method=\"post\">\n<label for=\"a2002\">Enter keyword or 2-6 digit code\n<br
+        />\n<input type=\"text\" name=\"input\" id=\"a2002\" size='15' maxlength='40'/>\n</label>\n<br
+        />\n<input type=\"submit\" name=\"search\" value=\"2002 NAICS Search\" title=\"2002
+        NAICS Search\" />\n</form>\n\n<br />\n        \n<h3>Downloads/Reference Files/Tools</h3>\n<ul
+        class=\"navlist\">\n<li><a href=\"/cgi-bin/sssd/naics/naicsrch?chart=2012\"
+        title=\"2012 NAICS Drill Down Chart and Concordances\">2012 NAICS</a></li>\n<li><a
+        href=\"/cgi-bin/sssd/naics/naicsrch?chart=2007\" title=\"2007 NAICS Drill
+        Down Chart and Concordances\">2007 NAICS</a></li>\n<li><a href=\"/cgi-bin/sssd/naics/naicsrch?chart=2002\"
+        title=\"2002 NAICS Drill Down Chart and Concordances\">2002 NAICS</a></li>\n<li><a
+        href=\"/eos/www/naics/reference_files_tools/1997/1997.html\" title=\"1997
+        NAICS -Titles and Descriptions of Industries\">1997 NAICS</a></li>\n<li><a
+        href=\"/eos/www/naics/concordances/concordances.html\" title=\"Concordances-a
+        description of the direct relationshp between classification systems\">Concordances</a></li>\n<li><a
+        href=\"/eos/www/naics/reference_files_tools/NAICS_Update_Process_Fact_Sheet.pdf\"
+        title=\"Fact sheet on the revision process for the 2017 NAICS\">NAICS Update
+        Process Fact Sheet</a>  &#91;PDF&#44; 37KB]</li>\n</ul>\n\n<br />\t\t\t  \n<div
+        class=\"hi-lite\"><img src=\"/eos/www/naics/img/NAICS_logo.jpg\" alt=\"NAICS
+        logo\" />\n</div> \n              <!-- end features -->\n <a name=\"SKIPLEFT\"></a>\n
+        </div>\n\n <!-- InstanceEndEditable --><a name=\"SKIP3\"></a></div>\n        </div>\n
+        \       <!--Close left column-->\n        <!--Middle Column-->\n        <div
+        id=\"middle-column\">\n          <div class=\"inside\">\n            <!--
+        start middle-->\n            <!-- InstanceBeginEditable name=\"Page Content\"
+        -->\n\n<h2>2012 NAICS Definition</h2>\n\n\n  T = Canadian, Mexican, and United
+        States industries are comparable.\n\n<br/><br/>\n\n\n\n<table width=\"90%\"
+        summary=\"The contents of this table provides search results of the North
+        American Industry Classification System (NAICS). Results include: 2, 3, 4,
+        5, and 6-digit NAICS codes descriptions and corresponding index items from;
+        2012, 2007, and 2002 NAICS. If you cannot find your activity when doing this
+        search, email Dr. NAICS or call 1-888-75NAICS\" border=\"0\" cellpadding=\"4\"
+        cellspacing=\"1\">\n\n\n          <h3>517110&nbsp;Wired Telecommunications
+        Carriers</h3>\n           This industry comprises establishments primarily
+        engaged in operating and/or providing access to transmission facilities and
+        infrastructure that they own and/or lease for the transmission of voice, data,
+        text, sound, and video using wired telecommunications networks.  Transmission
+        facilities may be based on a single technology or a combination of technologies.
+        \ Establishments in this industry use the wired telecommunications network
+        facilities that they operate to provide a variety of services, such as wired
+        telephony services, including VoIP services; wired (cable) audio and video
+        programming distribution; and wired broadband Internet services.  By exception,
+        establishments providing satellite television distribution services using
+        facilities and infrastructure that they operate are included in this industry.<br
+        /><br />Illustrative Examples:<br /><br />Broadband Internet service providers,
+        wired (e.g. cable, DSL)<br />Local telephone carriers, wired<br />Cable television
+        distribution services<br />Long-distance telephone carriers, wired<br />Closed
+        circuit television (CCTV) services<br />VoIP service providers, using own
+        operated wired telecommunications infrastructure<br />Direct-to-home satellite
+        system (DTH) services<br />Telecommunications carriers, wired<br />Satellite
+        television distribution systems<br />Multichannel multipoint distribution
+        services (MMDS)<br /><br /><br />Cross-References.\tEstablishments primarily
+        engaged in--\n             <br />\n          \n             \n            <ul>\n
+        \             <!-- Jira ASD-30 -->\n                \n             \t  <li>Producing
+        and distributing a channel of television programming for cable or satellite
+        television systems--are classified in Industry <a href=\"/cgi-bin/sssd/naics/naicsrch?code=515210&search=2012\">515210</a>,
+        Cable and Other Subscription Programming;</li>\n                \n              <!--
+        Jira ASD-30 -->\n                \n             \t  <li>Operating coin-operated
+        pay telephones--are classified in Industry <a href=\"/cgi-bin/sssd/naics/naicsrch?code=812990&search=2012\">812990</a>,
+        All Other Personal Services;</li>\n                \n              <!-- Jira
+        ASD-30 -->\n                \n             \t  <li>Operating and maintaining
+        wireless telecommunications networks--are classified in Industry <a href=\"/cgi-bin/sssd/naics/naicsrch?code=517210&search=2012\">517210</a>,
+        Wireless Telecommunications Carriers (except Satellite);</li>\n                \n
+        \             <!-- Jira ASD-30 -->\n                \n             \t  <li>Producing
+        and distributing radio programs for cable or satellite radio systems--are
+        classified in U.S. Industry <a href=\"/cgi-bin/sssd/naics/naicsrch?code=515111&search=2012\">515111</a>,
+        Radio Networks;</li>\n                \n              <!-- Jira ASD-30 -->\n
+        \               \n             \t  <li>Reselling telecommunications services
+        (except satellite telecommunications), without operating a network--are classified
+        in U.S. Industry <a href=\"/cgi-bin/sssd/naics/naicsrch?code=517911&search=2012\">517911</a>,
+        Telecommunications Resellers;</li>\n                \n              <!-- Jira
+        ASD-30 -->\n                \n             \t  <li>Publishing telephone directories--are
+        classified in Industry <a href=\"/cgi-bin/sssd/naics/naicsrch?code=511140&search=2012\">511140</a>,
+        Directory and Mailing List Publishers;</li>\n                \n              <!--
+        Jira ASD-30 -->\n                \n             \t  <li>Reselling satellite
+        telecommunications services--are classified in Industry <a href=\"/cgi-bin/sssd/naics/naicsrch?code=517410&search=2012\">517410</a>,
+        Satellite Telecommunications;</li>\n                \n              <!-- Jira
+        ASD-30 -->\n                \n             \t  <li>Providing Internet access
+        services via client-supplied telecommunications connections (e.g. dial up
+        ISP's)--are classified in U.S. Industry <a href=\"/cgi-bin/sssd/naics/naicsrch?code=517919&search=2012\">517919</a>,
+        All Other Telecommunications;</li>\n                \n              <!-- Jira
+        ASD-30 -->\n                \n             \t  <li>Providing voice over Internet
+        protocol (VoIP) services via client-supplied telecommunications connections--are
+        classified in U.S. Industry <a href=\"/cgi-bin/sssd/naics/naicsrch?code=517919&search=2012\">517919</a>,
+        All Other Telecommunications; and</li>\n                \n              <!--
+        Jira ASD-30 -->\n                \n             \t  <li>Providing limited
+        Internet connectivity at locations known as Internet cafes, in combination
+        with other services such as facsimile services, training, rental of on-site
+        personal computers, games rooms, or food services--are classified in U.S.
+        Industry <a href=\"/cgi-bin/sssd/naics/naicsrch?code=561439&search=2012\">561439</a>,
+        Other Business Service Centers (including Copy Shops) or Subsector <a href=\"/cgi-bin/sssd/naics/naicsrch?code=722&search=2012\">722</a>,
+        Food Services and Drinking Places, depending on the primary activity.</li>\n
+        \               \n             \n            </ul>\n          \n          \n
+        \           <tr> \n              <td><b>2002<br />\n                NAICS</b></td>\n
+        \             <td>&nbsp;</td>\n              <td><b>2007<br />\n                NAICS</b></td>\n
+        \             <td>&nbsp;</td>\n              <td><b>2012<br />\n                NAICS</b></td>\n
+        \             <td>&nbsp;</td>\n              <td><b>Corresponding Index <br
+        />\n                     Entries</b></td>\n            </tr>\n               <!--
+        Jira ASD-31 -->\n                <tr>\n                  <td>517510</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>Cable
+        program distribution operators</td>\n                </tr>\n               <!--
+        Jira ASD-31 -->\n                <tr>\n                  <td>517110</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>Cable
+        television distribution services</td>\n                </tr>\n               <!--
+        Jira ASD-31 -->\n                <tr>\n                  <td>517510</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>Cable
+        TV providers (except networks)</td>\n                </tr>\n               <!--
+        Jira ASD-31 -->\n                <tr>\n                  <td>517510</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>Closed
+        circuit television (CCTV) services</td>\n                </tr>\n               <!--
+        Jira ASD-31 -->\n                <tr>\n                  <td>517510</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>Direct
+        broadcast satellite (DBS) services</td>\n                </tr>\n               <!--
+        Jira ASD-31 -->\n                <tr>\n                  <td>517510</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>Direct-to-home
+        satellite system (DTH) services</td>\n                </tr>\n               <!--
+        Jira ASD-31 -->\n                <tr>\n                  <td>518111</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>Internet
+        service providers, using own operated wired telecommunications infrastructure
+        (e.g., cable, DSL)</td>\n                </tr>\n               <!-- Jira ASD-31
+        -->\n                <tr>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>517110</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>Local telephone carriers,
+        wired</td>\n                </tr>\n               <!-- Jira ASD-31 -->\n                <tr>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>517110</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>Long-distance telephone carriers, wired</td>\n                </tr>\n
+        \              <!-- Jira ASD-31 -->\n                <tr>\n                  <td>517510</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>Multichannel
+        multipoint distribution services (MMDS)</td>\n                </tr>\n               <!--
+        Jira ASD-31 -->\n                <tr>\n                  <td>517510</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>Music
+        program distribution, cable or satellite</td>\n                </tr>\n               <!--
+        Jira ASD-31 -->\n                <tr>\n                  <td>518111</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>On-line
+        access service providers, using own operated wired telecommunications infrastructure</td>\n
+        \               </tr>\n               <!-- Jira ASD-31 -->\n                <tr>\n
+        \                 <td>517510</td>\n                  <td>&nbsp;</td>\n                  <td>517110</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>Satellite master antenna television service (SMATV)</td>\n
+        \               </tr>\n               <!-- Jira ASD-31 -->\n                <tr>\n
+        \                 <td>517510</td>\n                  <td>&nbsp;</td>\n                  <td>517110</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>Satellite television distribution systems</td>\n                </tr>\n
+        \              <!-- Jira ASD-31 -->\n                <tr>\n                  <td>517110</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>Telecommunications
+        carriers, wired</td>\n                </tr>\n               <!-- Jira ASD-31
+        -->\n                <tr>\n                  <td>517510</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>517110</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>Television operations,
+        closed circuit</td>\n                </tr>\n               <!-- Jira ASD-31
+        -->\n                <tr>\n                  <td>517110</td>\n                  <td>&nbsp;</td>\n
+        \                 <td>517110</td>\n                  <td>&nbsp;</td>\n                  <td>517110</td>\n
+        \                 <td>&nbsp;</td>\n                  <td>VoIP service providers,
+        using own operated wired telecommunications infrastructure </td>\n                </tr>\n
+        \             \n          \n        \n       </table>\n       \n\n<!-- InstanceEndEditable
+        --><br clear=\"left\" />\n            <!--End middle content-->\n            <div
+        class=\"clear-columns\">\n              <!-- do not delete -->\n            </div>\n
+        \         </div>\n          <!-- Close inside -->\n        </div>\n        <!--
+        Close middle-column -->\n        <!-- End Middle Column-->\n      </div>\n
+        \     <!-- Close source-order-container -->\n      <div id=\"right-column\">\n
+        \       <div class=\"inside\">\n          <!--do not delete even though no
+        content-->\n        </div>\n      </div>\n      <!-- close inside -->\n      <!--Close
+        right column-->\n    </div>\n    <div class=\"clear-columns\">\n      <!--
+        do not delete -->\n    </div>\n  </div>\n  <div class=\"pdf\">\n<!--#include
+        virtual=\"/main/.in/pdf.inc\"-->\n  <span id=\"pdf\">\n  [PDF] or <a href=\"/main/www/pdf.html\"><img
+        src=\"/main/www/img/pdficon.gif\" alt=\"PDF\" width=\"17\" height=\"17\" /></a>
+        denotes a file in Adobe&rsquo;s <a href=\"/main/www/pdf.html\">Portable Document
+        Format</a>. To view the file, you will need the <a href=\"http://www.adobe.com/products/reader/\">Adobe&reg;
+        Reader&reg;</a> <img src=\"/main/www/img/offsite.gif\" width=\"15\" height=\"12\"
+        alt=\"Off Site\" /> available <span style=\"font-weight: bold;\">free</span>
+        from Adobe.\n</span>\n  <!--#include virtual=\"/main/.in/excel.inc\"-->\n
+        \ <span id=\"excel\">\n  [Excel] or the letters [xls] indicate a document
+        is in the Microsoft&reg; Excel&reg; Spreadsheet Format (XLS). To view the
+        file, you will need the <a href=\"http://www.microsoft.com/en-us/download/details.aspx?id=10\"
+        title=\"This external link, microsoft.com, is not part of the Census Bureau
+        Web site and does not imply endorsement of any particular product, company,
+        or content.\">Microsoft&reg; Excel&reg; Viewer</a> <img src=\"/main/www/img/offsite.gif\"
+        width=\"15\" height=\"12\" alt=\"Off Site\" /> available for <strong>free</strong>
+        from Microsoft&reg;.\n</span>\n  This symbol\n  <!--#include virtual=\"/main/.in/offsite-footer.inc\"-->\n
+        \ <span class=\"offsite\"><img src=\"/main/www/img/offsite.gif\" alt=\"Link
+        to a non-federal Web site\" style=\"width:15px; height:12px; vertical-align:
+        middle;\" /></span>\n  indicates a link to a non-government web site. Our
+        linking to these sites does not constitute an endorsement of any products,
+        services or the information found on them. Once you link to another site you
+        are subject to the policies of the new site. \n  </div>\n  <!-- InstanceEndEditable
+        -->\n  <!--start footer inc-->\n  <!--#include virtual=\"/main/.in/cb_footer.inc\"-->\n
+        \  <!-- START FOOTER 02/20/2013 -->\n<div id=\"cb_footer\" style=\"background-attachment:
+        scroll; background-color: rgb(10, 17, 63); background-image: url(/main/img/home/background_footer_outer.png);
+        -moz-background-clip: border; -moz-background-origin: padding; -moz-background-size:
+        auto auto;   background-position: 0pt 0pt; background-repeat: repeat-x; color:
+        rgb(255, 255, 255); font-family: Arial,Helvetica,sans-serif; padding: 0pt
+        0pt 2px; text-align: center; position:relative; min-width:1000px;\">\n    <a
+        href=\"#SKIP_FTR\" title=\"Skip Footer\" class=\"skiplink ui-state-highlight
+        ui-corner-all\" style=\"position:absolute; left:-10000px; top:auto; width:1px;
+        height:1px; overflow:hidden;'\">Skip footer section</a>\n    <div id=\"footer-inner\"
+        style=\"width: 1000px; margin: 0pt auto;\">\n        <div id=\"footer-content\">\n<!--footer-tagline-->\n
+        \           <div id=\"footer-tagline\" style=\"font-family: Times,Times New
+        Roman,Georgia,SERIF; font-weight: normal; font-size: 15pt; height: 38px; letter-spacing:
+        1px; padding: 18px 0pt 0pt;\">Measuring America&mdash;People, Places, and
+        Our Economy</div>\n<!--end footer-tagline-->\n            <div id=\"footer_grad_1\"
+        style=\"height: 1px; background-image: url(/main/img/home/footer_gradient_rule.png);
+        background-position: 0pt 0pt; background-repeat: no-repeat;\"></div>\n\n<!--
+        \ Begin Columns  -->\n\n<div id=\"footer-links\" style=\"margin: 15px 0pt
+        10px; padding: 0pt; font-size: 8pt; line-height: 14pt; letter-spacing: 0.5px;
+        list-style-type: none; min-width:950px\">\n\n<!--column_1-->\n\n  <div id=\"column_1\"
+        style=\"width: 155px; padding-left:25px; float: left; text-align: left;\">\n
+        \   <ul style=\"margin: 0px; padding: 0px; list-style: none outside none;\">\n
+        \       <li><a href=\"/aboutus/\" style=\"font-size: 8pt; line-height: 14pt;
+        color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none; font-weight: bold;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">ABOUT US</a></li>\n        <li><a
+        href=\"/survey_participants/\" style=\"font-size: 8pt; line-height: 14pt;
+        color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Are You in a Survey?</a></li>\n
+        \       <li><a href=\"http://ask.census.gov/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">FAQs</a></li>\n        <li><a
+        href=\"/newsroom/releases/archives/directors_corner/\" style=\"font-size:
+        8pt; line-height: 14pt; color: rgb(255, 255, 255); background: none repeat
+        scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Director's Corner</a></li>\n        <li><a
+        href=\"/regions/\" style=\"font-size: 8pt; line-height: 14pt; color: rgb(255,
+        255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">Regional
+        Offices</a></li>\n        <li><a href=\"/history/\" style=\"font-size: 8pt;
+        line-height: 14pt; color: rgb(255, 255, 255); background: none repeat scroll
+        0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">History</a></li>\n        <li><a
+        href=\"/research/\" style=\"font-size: 8pt; line-height: 14pt; color: rgb(255,
+        255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">Research</a></li>\n
+        \       <li><a href=\"/aboutus/scientific_integrity.html\" style=\"font-size:
+        8pt; line-height: 14pt; color: rgb(255, 255, 255); background: none repeat
+        scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Scientific Integrity</a></li>\n
+        \       <li><a href=\"/hrd/www/\" style=\"font-size: 8pt; line-height: 14pt;
+        color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Jobs @ Census</a></li>\n        <li><a
+        href=\"/diversity_networks/\" style=\"font-size: 8pt; line-height: 14pt; color:
+        rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">Diversity
+        @ Census</a></li>\n        <li><a href=\"/procur/www/\" style=\"font-size:
+        8pt; line-height: 14pt; color: rgb(255, 255, 255); background: none repeat
+        scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\">Business Opportunities</a></li>\n
+        \       <li><a href=\"/aboutus/contacts.html\" title=\"contact information
+        for the US Census Bureau\" style=\"font-size: 8pt; line-height: 14pt; color:
+        rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">Contact
+        Us</a></li>\n    </ul>\n  </div> <!--end column_1-->\n\n<!--column_2-->\n\n
+        \ <div id=\"column_2\" style=\"width: 165px; float: left; text-align: left;\">\n
+        \   <ul style=\"margin: 0px; padding: 0px; list-style: none outside none;\">\n
+        \       <li><a href=\"/main/www/access.html\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none; font-weight: bold;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">FIND DATA</a></li>\n        <li><a
+        href=\"http://quickfacts.census.gov/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">QuickFacts</a></li>\n        <li><a
+        href=\"http://factfinder2.census.gov/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">American FactFinder</a></li>\n
+        \       <li><a href=\"/easystats/\" style=\"font-size: 8pt; line-height: 14pt;
+        color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Easy Stats</a></li>\n\n        <li><a
+        href=\"/popfinder/\" style=\"font-size: 8pt; line-height: 14pt; color: rgb(255,
+        255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">Population
+        Finder</a></li>\n        <li><a href=\"/2010census/\" style=\"font-size: 8pt;
+        line-height: 14pt; color: rgb(255, 255, 255); background: none repeat scroll
+        0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">2010 Census</a></li>\n        <li><a
+        href=\"/econ/census07/\" style=\"font-size: 8pt; line-height: 14pt; color:
+        rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">Economic
+        Census</a></li>\n        <li><a href=\"/2010census/popmap/\" style=\"font-size:
+        8pt; line-height: 14pt; color: rgb(255, 255, 255); background: none repeat
+        scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Interactive Maps</a></li>\n        <li><a
+        href=\"/mso/www/training/\" style=\"font-size: 8pt; line-height: 14pt; color:
+        rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">Training
+        &amp; Workshops</a></li>\n        <li><a href=\"/main/www/access.html\" style=\"font-size:
+        8pt; line-height: 14pt; color: rgb(255, 255, 255); background: none repeat
+        scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Data Tools</a></li>\n        <li><a
+        href=\"/developers/\" style=\"font-size: 8pt; line-height: 14pt; color: rgb(255,
+        255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">Developers</a></li>\n
+        \       <li><a href=\"/mp/www/cat/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Catalogs</a></li>\n        <li><a
+        href=\"/prod/www/\" style=\"font-size: 8pt; line-height: 14pt; color: rgb(255,
+        255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">Publications</a></li>\n
+        \   </ul>\n  </div> <!--end column_2-->\n\n<!--column_3-->\n\n  <div id=\"column_3\"
+        style=\"width: 168px; float: left; text-align: left;\">\n    <ul style=\"margin:
+        0px; padding: 0px; list-style: none outside none;\">\n        <li><a href=\"/econ/\"
+        style=\"font-size: 8pt; line-height: 14pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none; font-weight:
+        bold;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">BUSINESS
+        &amp; INDUSTRY</a></li>\n        <li><a href=\"http://bhs.econ.census.gov/bhs/\"
+        style=\"font-size: 8pt; line-height: 14pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Help With Your Forms</a></li>\n
+        \       <li><a href=\"/cgi-bin/briefroom/BriefRm\" style=\"font-size: 8pt;
+        line-height: 14pt; color: rgb(255, 255, 255); background: none repeat scroll
+        0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Economic Indicators</a></li>\n
+        \       <li><a href=\"/econ/census07/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Economic Census</a></li>\n        <li><a
+        href=\"/econ/estats/\" style=\"font-size: 8pt; line-height: 14pt; color: rgb(255,
+        255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">E-Stats</a></li>\n
+        \       <li><a href=\"/foreign-trade/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Foreign Trade</a></li>\n        <li><a
+        href=\"/foreign-trade/schedules/b/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Export Codes</a></li>\n        <li><a
+        href=\"/eos/www/naics/\" style=\"font-size: 8pt; line-height: 14pt; color:
+        rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\"><abbr
+        title=\"North American Industry Classification System\" style=\"border-bottom-width:
+        0pt;\">NAICS</abbr></a></li>\n        <li><a href=\"/govs/\" style=\"font-size:
+        8pt; line-height: 14pt; color: rgb(255, 255, 255); background: none repeat
+        scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Governments</a></li>\n        <li><a
+        href=\"http://lehd.ces.census.gov/led/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Local Employment Dynamics</a></li>\n
+        \       <li><a href=\"/econ/sbo/\" style=\"font-size: 8pt; line-height: 14pt;
+        color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Survey of Business Owners</a></li>\n
+        \   </ul>\n  </div><!--end column_3-->\n\n<!--column_4-->\n\n  <div id=\"column_4\"
+        style=\"width: 170px; float: left; text-align: left;\">\n    <ul style=\"margin:
+        0 0 1em 0; padding: 0px; list-style: none outside none;\">\n        <li><a
+        href=\"/people/\" style=\"font-size: 8pt; line-height: 14pt; color: rgb(255,
+        255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none; font-weight: bold;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">PEOPLE &amp; HOUSEHOLDS</a></li>\n
+        \       <li><a href=\"/2010census/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">2010 Census</a></li>\n        <li><a
+        href=\"/main/www/cen2000.html\" style=\"font-size: 8pt; line-height: 14pt;
+        color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">2000 Census</a></li>\n        <li><a
+        href=\"/acs/www/\" style=\"font-size: 8pt; line-height: 14pt; color: rgb(255,
+        255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">American
+        Community Survey</a></li>\n        <li><a href=\"/hhes/www/income/\" style=\"font-size:
+        8pt; line-height: 14pt; color: rgb(255, 255, 255); background: none repeat
+        scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Income</a></li>\n        <li><a
+        href=\"/hhes/www/poverty/\" style=\"font-size: 8pt; line-height: 14pt; color:
+        rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">Poverty</a></li>\n
+        \       <li><a href=\"/popest/\" style=\"font-size: 8pt; line-height: 14pt;
+        color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Population Estimates</a></li>\n
+        \       <li><a href=\"/population/projections/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Population Projections</a></li>\n
+        \       <li><a href=\"/hhes/www/hlthins/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Health Insurance</a></li>\n        <li><a
+        href=\"/housing/\" style=\"font-size: 8pt; line-height: 14pt; color: rgb(255,
+        255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">Housing</a></li>\n
+        \       <li><a href=\"/population/international/\" style=\"font-size: 8pt;
+        line-height: 14pt; color: rgb(255, 255, 255); background: none repeat scroll
+        0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">International</a></li>\n        <li><a
+        href=\"/genealogy/www/\" style=\"font-size: 8pt; line-height: 14pt; color:
+        rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">Genealogy</a></li>\n
+        \   </ul>\n  </div><!--end column_4-->\n\n<!--column_5-->\n\n  <div id=\"column_5\"
+        style=\"width: 166px; float: left; text-align: left;\">\n    <ul style=\"margin:
+        0px; padding: 0px; list-style: none outside none;\">\n        <li><a href=\"/geo/\"
+        style=\"font-size: 8pt; line-height: 14pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none; font-weight:
+        bold;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">GEOGRAPHY</a></li>\n
+        \       <li><a href=\"/geo/maps-data/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Maps and Data</a></li>\n        <li><a
+        href=\"/geo/maps-data/data/tiger.html\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">TIGER</a></li>\n        <li><a
+        href=\"/geo/maps-data/data/gazetteer.html\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Gazetteer</a></li>\n    </ul>\n\n
+        \   <ul style=\"margin: .5em 0 .5em; padding: 0pt; list-style: none outside
+        none;\">\n        <li style=\"font-size: 8pt; line-height: 14pt; color: rgb(255,
+        255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none; font-weight: bold;\">SPECIAL TOPICS</li>\n        <li><a href=\"/schools/\"
+        style=\"font-size: 8pt; line-height: 14pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Statistics in Schools</a></li>\n
+        \       <li><a href=\"/aian/\" style=\"font-size: 8pt; line-height: 14pt;
+        color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Tribal Resources (AIAN)</a></li>\n
+        \       <li><a href=\"/newsroom/emergencies/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Emergency Preparedness</a></li>\n
+        \       <li><a href=\"/compendia/statab/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Statistical Abstract</a></li>\n
+        \       <li><a href=\"/regions/specialcensus/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Special Census Program</a></li>\n
+        \       <li><a href=\"/survey_participants/related_information/phishing_email_scams_bogus_census_web_sites.html\"
+        style=\"font-size: 8pt; line-height: 14pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Fraudulent Activity &amp; Scams</a></li>\n
+        \       <li><a href=\"/recovery/\" style=\"font-size: 8pt; line-height: 14pt;
+        color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Recovery Act</a></li>\n        <li><a
+        href=\"http://www.usa.gov/\" style=\"font-size: 8pt; line-height: 14pt; color:
+        rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">USA.gov</a></li>\n
+        \       <li><a href=\"http://business.usa.gov/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">BusinessUSA.gov</a></li>\n    </ul>\n
+        \ </div><!--end column_5-->\n\n<!--column_6-->\n\n  <div id=\"column_6\" style=\"float:
+        right; text-align: left; width: 142px;\">\n    <ul style=\"margin: 0px; padding:
+        0px; list-style: none outside none;\">\n        <li><a href=\"/newsroom/\"
+        style=\"font-size: 8pt; line-height: 14pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none; font-weight:
+        bold;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">NEWSROOM</a></li>\n
+        \       <li><a href=\"/newsroom/releases/\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">News Releases</a></li>\n        <li><a
+        href=\"http://www.calendarwiz.com/calendars/calendar.php?crd=cens1sample&amp;cid[]=31793\"
+        style=\"font-size: 8pt; line-height: 14pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Release Schedule</a></li>\n        <li><a
+        href=\"/newsroom/releases/archives/facts_for_features_special_editions/\"
+        style=\"font-size: 8pt; line-height: 14pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Fact for Features</a></li>\n        <li><a
+        href=\"/aboutus/social_media.html\" style=\"font-size: 8pt; line-height: 14pt;
+        color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Blogs</a></li>\n        <li><a
+        href=\"/multimedia/\" style=\"font-size: 8pt; line-height: 14pt; color: rgb(255,
+        255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">Multimedia</a></li>\n
+        \   </ul>\n\n    <ul style=\"margin: 2px 0 9px 0; padding: 0pt; list-style:
+        none outside none;\">\n        <li><a href=\"/aboutus/social_media.html\"
+        style=\"font-size: 8pt; line-height: 16pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none; font-weight:
+        bold; letter-spacing: 0.2px; \" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">CONNECT WITH US</a></li>\n        <li
+        style=\"font-size: 8pt; line-height: 15pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none;\"><a href=\"https://public.govdelivery.com/accounts/USCENSUS/subscriber/new\"
+        style=\"font-size: 8pt; line-height: 14pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\"><img src=\"/main/img/govdelivery_16x16.png\"
+        alt=\"Connect with us on GovDelivery\" style=\"border: 1px solid transparent;
+        display: block; float: left; margin-right: 4px;\" />Email Updates</a></li>\n
+        \       <li style=\"font-size: 8pt; line-height: 15pt; color: rgb(255, 255,
+        255); background: none repeat scroll 0% 0% transparent; text-decoration: none;\"><a
+        href=\"https://www.facebook.com/uscensusbureau\" style=\"font-size: 8pt; line-height:
+        14pt; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\"><img src=\"/main/img/home/facebook.png\"
+        alt=\"Connect with us on Facebook\" style=\"border: 1px solid transparent;
+        display: block; float: left; margin-right: 4px;\" />Facebook</a></li>\n        <li
+        style=\"font-size: 8pt; line-height: 15pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none;\"><a href=\"http://twitter.com/uscensusbureau\"
+        style=\"font-size: 8pt; line-height: 14pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\"><img src=\"/main/img/home/twitter.png\"
+        alt=\"Connect with us on Twitter\" style=\"border: 1px solid transparent;
+        display: block; float: left; margin-right: 4px;\" />Twitter</a></li>\n        <li
+        style=\"font-size: 8pt; line-height: 15pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none;\"><a href=\"http://www.flickr.com/photos/uscensusbureau/\"
+        style=\"font-size: 8pt; line-height: 14pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\"><img src=\"/main/img/home/flickr.png\"
+        alt=\"Connect with us on Flickr\" style=\"border: 1px solid transparent; display:
+        block; float: left; margin-right: 4px;\" />Flickr</a></li>\n        <li style=\"font-size:
+        8pt; line-height: 15pt; color: rgb(255, 255, 255); background: none repeat
+        scroll 0% 0% transparent; text-decoration: none;\"><a href=\"http://www.youtube.com/user/uscensusbureau\"
+        style=\"font-size: 8pt; line-height: 14pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\"><img src=\"/main/img/home/youtube.png\"
+        alt=\"Connect with us on YouTube\" style=\"border: 1px solid transparent;
+        display: block; float: left; margin-right: 4px;\" />YouTube</a></li>\n    </ul>\n
+        \ </div><!--end column_6-->\n\n<!--  End Columns  -->\n\n  <div id=\"footer_grad_2\"
+        style=\"clear: both; height: 1px; background-image: url(/main/img/home/footer_gradient_rule.png);
+        background-position: 0pt 0pt; background-repeat: no-repeat;\"></div>\n\n<!--Horizontal
+        Navigation-->\n\n  <div id=\"horizontal_nav\">\n    <ul style=\"list-style:
+        none none outside; display: block; margin: 15px 0pt;\">\n        <li style=\"font-size:
+        7pt; display: inline; padding: 0pt 15px;\"><a href=\"/privacy/privacy_policy/document_accessibility.html\"
+        style=\"font-size: 8pt; line-height: 14pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Accessibility</a></li>\n        <li
+        style=\"font-size: 7pt; display: inline; padding: 0pt 15px; border-left: 1px
+        solid rgb(212, 233, 249);\"><a href=\"/quality/\" style=\"font-size: 8pt;
+        line-height: 14pt; color: rgb(255, 255, 255); background: none repeat scroll
+        0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">Information Quality</a></li>\n
+        \       <li style=\"font-size: 7pt; display: inline; padding: 0pt 15px; border-left:
+        1px solid rgb(212, 233, 249);\"><a href=\"/foia/\" style=\"font-size: 8pt;
+        line-height: 14pt; color: rgb(255, 255, 255); background: none repeat scroll
+        0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">FOIA</a></li>\n        <li style=\"font-size:
+        7pt; display: inline; padding: 0pt 15px; border-left: 1px solid rgb(212, 233,
+        249);\"><a href=\"/privacy/\" style=\"font-size: 8pt; line-height: 14pt; color:
+        rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent; text-decoration:
+        none;\" onmouseover=\"this.style.textDecoration='underline'\" onmouseout=\"this.style.textDecoration='none'\"
+        onfocus=\"this.style.textDecoration='underline'\" onblur=\"this.style.textDecoration='none'\">Data
+        Protection &amp; Privacy Policy</a></li>\n        <li style=\"font-size: 7pt;
+        display: inline; padding: 0pt 15px; border-left: 1px solid rgb(212, 233, 249);\"><a
+        href=\"http://www.commerce.gov/\" style=\"font-size: 8pt; line-height: 14pt;
+        color: rgb(255, 255, 255); background: none repeat scroll 0% 0% transparent;
+        text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">U.S. Dept of Commerce</a></li>\n
+        \   </ul>\n  </div>\n<!--End Horizontal Navigation-->\n\n<!--Census Link-->\n\n
+        \ <p style=\"text-align: center; font-size: 8pt; line-height: 14pt;\"><a href=\"/\"
+        style=\"font-size: 8pt; line-height: 14pt; color: rgb(255, 255, 255); background:
+        none repeat scroll 0% 0% transparent; text-decoration: none;\" onmouseover=\"this.style.textDecoration='underline'\"
+        onmouseout=\"this.style.textDecoration='none'\" onfocus=\"this.style.textDecoration='underline'\"
+        onblur=\"this.style.textDecoration='none'\">United States Census Bureau</a></p>\n<!--End
+        Census Link-->\n\n</div> <!--end footer links-->\n</div> <!--end footer content-->\n</div>
+        <!--end footer inner-->\n<a name=\"SKIP_FTR\"></a>\n</div> <!--end cb_footer-->\n\n<!--
+        Foresee Survey -->\n<script type=\"text/javascript\" src=\"http://www.census.gov/fsrscripts/foresee-trigger.js\"></script>\n<script
+        type=\"text/javascript\" src=\"http://www.census.gov/fsrscripts/foresee-surveydef.js\"></script>\n<!--
+        End Foresee Survey -->\n\n<!-- USA Search Code -->\n<script type=\"text/javascript\">\n//<![CDATA[\n
+        \ var usagov_sayt_url = \"http://search.usa.gov/sayt?aid=2484&\";\n  var script
+        = document.createElement('script');\n  script.type = \"text/javascript\";\n
+        \ script.src = \"http://search.usa.gov/javascripts/sayt/remote.js\";\n  document.getElementsByTagName(\"head\")[0].appendChild(script);\n//]]>\n</script>\n<script
+        type=\"text/javascript\">\n  //<![CDATA[\n    var aid = \"census\";\n    var
+        script = document.createElement('script');\n    script.type = \"text/javascript\";\n
+        \   script.src = \"http://search.usa.gov/javascripts/stats.js\";\n    document.getElementsByTagName(\"head\")[0].appendChild(script);\n
+        \ //]]>\n</script>\n<!-- End USA Search Code -->\n<!-- END FOOTER 02/20/2013
+        -->\n  <!-- Close Page Container div -->\n</div>\n<div id=\"reviseddate\">
+        Source: U.S. Census Bureau | <!-- InstanceBeginEditable name=\"Subject/Program
+        Area Name\" -->North American Industry Classification System (NAICS) <!--
+        InstanceEndEditable --> |  <!-- InstanceBeginEditable name=\"Contact branch\"
+        -->(888) 756-2427 <!-- InstanceEndEditable --> |&nbsp;<a href=\"mailto:&#110;&#97;&#105;&#99;&#115;&#64;&#99;&#101;&#110;&#115;&#117;&#115;&#46;&#103;&#111;&#118;\"
+        title=\"naics@census.gov\">naics@census.gov</a><!-- InstanceEndEditable -->
+        | &nbsp;Last Revised:  May 13, 2013 </div>\n<!-- End cb footer -->\n<!--end
+        footer inc-->\n</body><!-- InstanceEnd -->\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 28 May 2013 03:15:08 GMT
+recorded_with: VCR 2.5.0

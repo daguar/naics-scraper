@@ -18,7 +18,7 @@ describe NaicsScraper, "::get_content_for_code" do
     @code_content = NaicsScraper.get_content_for_code(423120, 2012)
     @code_content.should eq("This industry comprises establishments primarily engaged in the merchant wholesale distribution of motor vehicle supplies, accessories, tools, and equipment; and new motor vehicle parts (except new tires and tubes).")
   end
-  # Issue #2
+  # Issue #2 - May want to make this return the content for the referred code
   it "should return the a referential description for 51711 in 2012 NAICS" do
     @code_content = NaicsScraper.get_content_for_code(51711, 2012)
     @code_content.should eq("See industry description for 517110.")
